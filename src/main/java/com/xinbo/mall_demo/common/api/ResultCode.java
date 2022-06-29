@@ -1,10 +1,14 @@
 package com.xinbo.mall_demo.common.api;
 
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
 /**
  * 常用API返回 Code 值
  * @author Xinbo
  */
+@AllArgsConstructor
 public enum ResultCode implements IErrorCode {
     /**
      * ResultCode: 请求 code 码
@@ -17,11 +21,6 @@ public enum ResultCode implements IErrorCode {
 
     private final long code;
     private final String message;
-
-    ResultCode(long code, String message) {
-        this.code = code;
-        this.message = message;
-    }
 
     @Override
     public long getCode() {

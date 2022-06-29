@@ -7,12 +7,14 @@ package com.xinbo.mall_demo.common.api;
 public interface IErrorCode {
 
     /**
+     * 返回码
      * @return 错误码
      */
     long getCode();
 
     /**
-     * @return 错误信息
+     * 返回信息
+     * @return 返回信息
      */
     String getMessage();
 }

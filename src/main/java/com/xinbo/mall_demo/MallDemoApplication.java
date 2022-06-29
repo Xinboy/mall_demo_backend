@@ -3,6 +3,9 @@ package com.xinbo.mall_demo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author Xinbo
+ */
 @SpringBootApplication
 public class MallDemoApplication {
 
