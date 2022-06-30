@@ -8,6 +8,7 @@ import com.xinbo.mall_demo.service.RedisService;
 import com.xinbo.mall_demo.service.impl.RedisServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.cache.RedisCacheConfiguration;
 import org.springframework.data.redis.cache.RedisCacheManager;
 import org.springframework.data.redis.cache.RedisCacheWriter;
@@ -24,6 +25,7 @@ import java.time.Duration;
  * Redis基础配置
  * @author Xinbo
  */
+@Configuration
 public class RedisConfig {
 
     @Autowired
