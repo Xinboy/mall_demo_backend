@@ -1,5 +1,6 @@
 package com.xinbo.mall_demo.confg;
 
+import org.assertj.core.internal.Predicates;
 import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.context.annotation.Bean;
 import springfox.documentation.RequestHandler;
@@ -25,7 +26,9 @@ public class Swagger2Config {
                 .apiInfo(apiInfo())
                 .select()
                 //为当前包下controller生成API文档
-                .apis(RequestHandlerSelectors.basePackage("com.xinbo.mall_demo.controller"))
+                //.apis(RequestHandlerSelectors.basePackage("com.xinbo.mall_demo.controller"))
+                //为所有api进行监控
+                .apis(RequestHandlerSelectors.any())
                 //为有@ApiOperation注解的方法生成API文档
                 //.apis(RequestHandlerSelectors.withMethodAnnotation(Api.class))
                 //为有@Api注解的Controller生成API文档

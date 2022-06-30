@@ -5,6 +5,7 @@ import com.xinbo.mall_demo.common.api.Result;
 import com.xinbo.mall_demo.mbg.model.PmsBrand;
 import com.xinbo.mall_demo.service.PmsBrandService;
 import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +20,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/brand")
-@Api(tags = "商品品牌管理")
+@Api(tags = "商品品牌管理", value = "PmsBrandController")
 public class PmsBrandController {
 
     @Autowired
@@ -27,16 +28,19 @@ public class PmsBrandController {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(PmsBrandController.class);
 
+    @ApiOperation("获取全部品牌列表")
     @GetMapping(value = "/all")
     public Result<List<PmsBrand>> getBrandList() {
         return Result.success(pmsBrandService.listAll());
     }
 
+    @ApiOperation("获取指定品牌")
     @GetMapping(value = "/{id}")
     public Result<PmsBrand> getBrand(@PathVariable Long id) {
         return Result.success(pmsBrandService.get(id));
     }
 
+    @ApiOperation("分页获取品牌列表")
     @GetMapping()
     public Result<Page<PmsBrand>> getBrandLists(@RequestParam(value = "pageNum", defaultValue = "1") Integer pageNum,
                                                 @RequestParam(value = "pageSize", defaultValue = "10") Integer pageSize) {
@@ -44,6 +48,7 @@ public class PmsBrandController {
         return Result.success(Page.restPage(list));
     }
 
+    @ApiOperation("新建品牌")
     @PostMapping()
     public Result create(@RequestBody PmsBrand pmsBrand) {
         Result result;
@@ -58,6 +63,7 @@ public class PmsBrandController {
         return result;
     }
 
+    @ApiOperation("更新品牌")
     @PutMapping(value = "/{id}")
     public Result update(@PathVariable Long id, @RequestBody PmsBrand pmsBrand, BindingResult result) {
         Result res;
@@ -72,6 +78,7 @@ public class PmsBrandController {
         return res;
     }
 
+    @ApiOperation("删除品牌")
     @DeleteMapping(value = "/{id}")
     public Result delete(@PathVariable Long id) {
         Result res;
