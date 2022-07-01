@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 /**
+ * 品牌管理 Service 实现类
  * @author Xinbo
  */
 @Service

@@ -1,4 +1,4 @@
-package com.xinbo.mall_demo.confg;
+package com.xinbo.mall_demo.config;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Configuration;

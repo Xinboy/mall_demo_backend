@@ -11,6 +11,7 @@ import org.springframework.util.StringUtils;
 import java.util.Random;
 
 /**
+ * 用户会员 Service 实现类
  * @author Xinbo
  */
 @Service

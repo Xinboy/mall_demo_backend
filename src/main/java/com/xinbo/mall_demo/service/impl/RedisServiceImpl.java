@@ -12,7 +12,7 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 /**
- * redis操作Service 实现
+ * redis操作Service 实现类
  * @author Xinbo
  */
 @Service
