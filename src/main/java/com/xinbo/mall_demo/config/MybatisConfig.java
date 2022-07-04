@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 @MapperScan("com.xinbo.mall_demo.mbg.mapper")
+@MapperScan("com.xinbo.mall_demo.model.dao")
 public class MybatisConfig {
 
 }

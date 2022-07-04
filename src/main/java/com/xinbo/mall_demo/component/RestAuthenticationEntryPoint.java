@@ -4,6 +4,7 @@ import cn.hutool.json.JSONUtil;
 import com.xinbo.mall_demo.common.api.Result;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;
+import org.springframework.stereotype.Component;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
@@ -14,6 +15,7 @@ import java.io.IOException;
  * 自定义返回结果：未登录或登录过期
  * @author Xinbo
  */
+@Component
 public class RestAuthenticationEntryPoint implements AuthenticationEntryPoint {
     @Override
     public void commence(HttpServletRequest request, HttpServletResponse response, AuthenticationException authException) throws IOException, ServletException {

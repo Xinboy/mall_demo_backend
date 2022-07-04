@@ -4,8 +4,8 @@ server:
 spring:
   datasource:
     url: jdbc:mysql://116.62.57.216:3306/mall_db?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
-    username: root
-    password: 12345678
+    username: mall_admin
+    password: mall_2022
   redis:
     host: 116.62.57.216 # Redis服务器地址
     port: 6379 # Redis服务器连接端口

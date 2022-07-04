@@ -4,7 +4,163 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32304d96-5b84-477b-9b9e-32a0c61a20ec" name="Default Changelist" comment="" />
+    <list default="true" id="32304d96-5b84-477b-9b9e-32a0c61a20ec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/MallDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/MallDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/component/RestAuthenticationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/component/RestAuthenticationEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/component/RestfulAccessDeniedHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/component/RestfulAccessDeniedHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/config/MybatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/config/MybatisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/CmsHelpCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/CmsHelpCategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/CmsHelpMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/CmsHelpMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/CmsMemberReportMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/CmsMemberReportMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/CmsPrefrenceAreaMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/CmsPrefrenceAreaMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/CmsPrefrenceAreaProductRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/CmsPrefrenceAreaProductRelationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/CmsSubjectCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/CmsSubjectCategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/CmsSubjectCommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/CmsSubjectCommentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/CmsSubjectMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/CmsSubjectMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/CmsSubjectProductRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/CmsSubjectProductRelationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/CmsTopicCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/CmsTopicCategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/CmsTopicCommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/CmsTopicCommentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/CmsTopicMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/CmsTopicMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/OmsCartItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/OmsCartItemMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/OmsCompanyAddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/OmsCompanyAddressMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/OmsOrderItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/OmsOrderItemMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/OmsOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/OmsOrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/OmsOrderOperateHistoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/OmsOrderOperateHistoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/OmsOrderReturnApplyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/OmsOrderReturnApplyMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/OmsOrderReturnReasonMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/OmsOrderReturnReasonMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/OmsOrderSettingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/OmsOrderSettingMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsAlbumMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsAlbumMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsAlbumPicMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsAlbumPicMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsBrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsBrandMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsCommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsCommentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsCommentReplayMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsCommentReplayMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsFeightTemplateMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsFeightTemplateMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsMemberPriceMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsMemberPriceMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsProductAttributeCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsProductAttributeCategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsProductAttributeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsProductAttributeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsProductAttributeValueMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsProductAttributeValueMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsProductCategoryAttributeRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsProductCategoryAttributeRelationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsProductCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsProductCategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsProductFullReductionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsProductFullReductionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsProductLadderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsProductLadderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsProductOperateLogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsProductOperateLogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsProductVertifyRecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsProductVertifyRecordMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsSkuStockMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/PmsSkuStockMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/SmsCouponHistoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/SmsCouponHistoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/SmsCouponMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/SmsCouponMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/SmsCouponProductCategoryRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/SmsCouponProductCategoryRelationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/SmsCouponProductRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/SmsCouponProductRelationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/SmsFlashPromotionLogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/SmsFlashPromotionLogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/SmsFlashPromotionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/SmsFlashPromotionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/SmsFlashPromotionProductRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/SmsFlashPromotionProductRelationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/SmsFlashPromotionSessionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/SmsFlashPromotionSessionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/SmsHomeAdvertiseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/SmsHomeAdvertiseMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/SmsHomeBrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/SmsHomeBrandMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/SmsHomeNewProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/SmsHomeNewProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/SmsHomeRecommendProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/SmsHomeRecommendProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/SmsHomeRecommendSubjectMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/SmsHomeRecommendSubjectMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsAdminLoginLogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsAdminLoginLogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsAdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsAdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsAdminPermissionRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsAdminPermissionRelationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsAdminRoleRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsAdminRoleRelationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsGrowthChangeHistoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsGrowthChangeHistoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsIntegrationChangeHistoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsIntegrationChangeHistoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsIntegrationConsumeSettingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsIntegrationConsumeSettingMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsMemberLevelMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsMemberLevelMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsMemberLoginLogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsMemberLoginLogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsMemberMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsMemberMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsMemberMemberTagRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsMemberMemberTagRelationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsMemberProductCategoryRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsMemberProductCategoryRelationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsMemberReceiveAddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsMemberReceiveAddressMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsMemberRuleSettingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsMemberRuleSettingMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsMemberStatisticsInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsMemberStatisticsInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsMemberTagMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsMemberTagMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsMemberTaskMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsMemberTaskMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsPermissionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsPermissionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsRoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsRolePermissionRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/xinbo/mall_demo/mbg/mapper/UmsRolePermissionRelationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generator.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/CmsHelpCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/CmsHelpCategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/CmsHelpMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/CmsHelpMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/CmsMemberReportMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/CmsMemberReportMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/CmsPrefrenceAreaMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/CmsPrefrenceAreaMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/CmsPrefrenceAreaProductRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/CmsPrefrenceAreaProductRelationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/CmsSubjectCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/CmsSubjectCategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/CmsSubjectCommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/CmsSubjectCommentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/CmsSubjectMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/CmsSubjectMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/CmsSubjectProductRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/CmsSubjectProductRelationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/CmsTopicCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/CmsTopicCategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/CmsTopicCommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/CmsTopicCommentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/CmsTopicMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/CmsTopicMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/OmsCartItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/OmsCartItemMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/OmsCompanyAddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/OmsCompanyAddressMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/OmsOrderItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/OmsOrderItemMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/OmsOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/OmsOrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/OmsOrderOperateHistoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/OmsOrderOperateHistoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/OmsOrderReturnApplyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/OmsOrderReturnApplyMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/OmsOrderReturnReasonMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/OmsOrderReturnReasonMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/OmsOrderSettingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/OmsOrderSettingMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsAlbumMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsAlbumMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsAlbumPicMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsAlbumPicMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsBrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsBrandMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsCommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsCommentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsCommentReplayMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsCommentReplayMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsFeightTemplateMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsFeightTemplateMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsMemberPriceMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsMemberPriceMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsProductAttributeCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsProductAttributeCategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsProductAttributeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsProductAttributeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsProductAttributeValueMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsProductAttributeValueMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsProductCategoryAttributeRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsProductCategoryAttributeRelationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsProductCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsProductCategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsProductFullReductionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsProductFullReductionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsProductLadderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsProductLadderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsProductOperateLogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsProductOperateLogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsProductVertifyRecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsProductVertifyRecordMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsSkuStockMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/PmsSkuStockMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/SmsCouponHistoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/SmsCouponHistoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/SmsCouponMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/SmsCouponMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/SmsCouponProductCategoryRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/SmsCouponProductCategoryRelationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/SmsCouponProductRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/SmsCouponProductRelationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/SmsFlashPromotionLogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/SmsFlashPromotionLogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/SmsFlashPromotionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/SmsFlashPromotionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/SmsFlashPromotionProductRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/SmsFlashPromotionProductRelationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/SmsFlashPromotionSessionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/SmsFlashPromotionSessionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/SmsHomeAdvertiseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/SmsHomeAdvertiseMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/SmsHomeBrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/SmsHomeBrandMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/SmsHomeNewProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/SmsHomeNewProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/SmsHomeRecommendProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/SmsHomeRecommendProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/SmsHomeRecommendSubjectMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/SmsHomeRecommendSubjectMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsAdminLoginLogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsAdminLoginLogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsAdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsAdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsAdminPermissionRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsAdminPermissionRelationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsAdminRoleRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsAdminRoleRelationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsGrowthChangeHistoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsGrowthChangeHistoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsIntegrationChangeHistoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsIntegrationChangeHistoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsIntegrationConsumeSettingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsIntegrationConsumeSettingMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsMemberLevelMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsMemberLevelMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsMemberLoginLogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsMemberLoginLogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsMemberMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsMemberMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsMemberMemberTagRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsMemberMemberTagRelationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsMemberProductCategoryRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsMemberProductCategoryRelationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsMemberReceiveAddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsMemberReceiveAddressMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsMemberRuleSettingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsMemberRuleSettingMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsMemberStatisticsInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsMemberStatisticsInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsMemberTagMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsMemberTagMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsMemberTaskMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsMemberTaskMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsPermissionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsPermissionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsRoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsRolePermissionRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xinbo/mall_demo/mbg/mapper/UmsRolePermissionRelationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generator.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generatorConfig.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,12 +178,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectId" id="2BSeKeUMtE1lHYBIAvEoDWj5IBH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
@@ -48,13 +212,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -72,7 +238,22 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32304d96-5b84-477b-9b9e-32a0c61a20ec" name="Default Changelist" comment="" />
+      <created>1656903852271</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656903852271</updated>
+      <workItem from="1656903862411" duration="1057000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

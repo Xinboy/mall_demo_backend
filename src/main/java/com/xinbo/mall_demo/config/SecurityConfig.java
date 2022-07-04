@@ -18,7 +18,6 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.config.http.SessionCreationPolicy;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -93,17 +92,14 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     public UserDetailsService userDetailsService() {
         //获取登录用户信息
-        return new UserDetailsService() {
-            @Override
-            public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-                UmsAdminExample example = new UmsAdminExample();
-                example.createCriteria().andUsernameEqualTo(username);
-                List<UmsAdmin> umsAdminList = umsAdminMapper.selectByExample(example);
-                if (umsAdminList != null && umsAdminList.size() > 0) {
-                    return new AdminUserDetails(umsAdminList.get(0));
-                }
-                throw new UsernameNotFoundException("用户名或密码错误");
+        return username -> {
+            UmsAdminExample example = new UmsAdminExample();
+            example.createCriteria().andUsernameEqualTo(username);
+            List<UmsAdmin> umsAdminList = umsAdminMapper.selectByExample(example);
+            if (umsAdminList != null && umsAdminList.size() > 0) {
+                return new AdminUserDetails(umsAdminList.get(0));
             }
+            throw new UsernameNotFoundException("用户名或密码错误");
         };
     }
 
