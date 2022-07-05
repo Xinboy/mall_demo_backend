@@ -9,7 +9,7 @@
             #{item.roleId,jdbcType=BIGINT})
         </foreach>
     </insert>
-    <select id="getRoleList" resultMap="com.xinbo.mall_demo.mbg.model.UmsRoleMapper.BaseResultMap">
+    <select id="getRoleList" resultType="com.xinbo.mall_demo.mbg.model.UmsRole">
         select r.*
         from ums_admin_role_relation ar left join ums_role r on ar.role_id = r.id
         where ar.admin_id = #{adminId}

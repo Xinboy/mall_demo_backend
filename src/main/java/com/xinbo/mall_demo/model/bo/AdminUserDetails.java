@@ -6,6 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
@@ -31,12 +32,17 @@ public class AdminUserDetails implements UserDetails {
         this.umsAdmin = umsAdmin;
     }
 
+    // 返回的值不能为null,否则返回的永远是null,就会一直没有权限，由此定义了一个authorities 属性并提供get方法，因为自
+    // 定义了UserDetails，就没有在UserService中，使用到框架提供的User对象
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
+        // 模拟一个admin的权限
+        System.out.println(AuthorityUtils.commaSeparatedStringToAuthorityList("admin"));
+        return AuthorityUtils.commaSeparatedStringToAuthorityList("admin");
         //返回当前用户的角色
-        return resourceList.stream()
-                .map(role->new SimpleGrantedAuthority(role.getId()+":"+role.getName()))
-                .collect(Collectors.toList());
+//        return resourceList.stream()
+//                .map(role->new SimpleGrantedAuthority(role.getId()+":"+role.getName()))
+//                .collect(Collectors.toList());
     }
 
     @Override

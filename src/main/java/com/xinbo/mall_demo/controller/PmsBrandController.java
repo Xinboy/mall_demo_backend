@@ -19,9 +19,10 @@ import java.util.List;
  *  商品品牌管理 Controller
  * @author Xinbo
  */
+@Api(tags = "商品品牌管理", value = "PmsBrandController")
 @RestController
 @RequestMapping("/brand")
-@Api(tags = "商品品牌管理", value = "PmsBrandController")
+@ResponseBody
 public class PmsBrandController {
 
     @Autowired

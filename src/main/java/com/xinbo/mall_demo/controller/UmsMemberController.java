@@ -12,9 +12,10 @@ import org.springframework.web.bind.annotation.*;
  * 会员管理 Controller
  * @author Xinbo
  */
-@Api(tags = "会员登录注册管理")
+@Api(tags = "会员管理", value = "UmsMemberController")
 @Controller
 @RequestMapping("/sso")
+@ResponseBody
 public class UmsMemberController {
 
     @Autowired

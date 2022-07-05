@@ -10,7 +10,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * @author Xinbo
  */
 @Configuration
-@EnableSwagger2
 public class SwaggerConfig extends BaseSwaggerConfig {
 
     @Override
@@ -25,10 +24,10 @@ public class SwaggerConfig extends BaseSwaggerConfig {
                 .build();
     }
 
-    @Bean
-    public BeanPostProcessor springfoxHandlerProviderBeanPostProcessor() {
-        return generateBeanPostProcessor();
-    }
+//    @Bean
+//    public BeanPostProcessor springfoxHandlerProviderBeanPostProcessor() {
+//        return generateBeanPostProcessor();
+//    }
 
 }
 

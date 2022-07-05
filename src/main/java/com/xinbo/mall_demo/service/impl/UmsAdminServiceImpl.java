@@ -101,11 +101,14 @@ public class UmsAdminServiceImpl implements UmsAdminService {
         try {
             UserDetails userDetails = loadUserByUsername(username);
             if (!passwordEncoder.matches(password, userDetails.getPassword())) {
-                Asserts.fail("密码不正确");
+//                Asserts.fail("密码不正确");
+                return null;
             }
             if (!userDetails.isEnabled()) {
-                Asserts.fail("账号已被禁用");
+//                Asserts.fail("账号已被禁用");
+                return null;
             }
+
             UsernamePasswordAuthenticationToken authenticationToken = new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());
             SecurityContextHolder.getContext().setAuthentication(authenticationToken);
             token = jwtTokenUtil.generatedToken(userDetails);

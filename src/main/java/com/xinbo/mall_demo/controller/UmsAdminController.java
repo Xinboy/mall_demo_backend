@@ -30,9 +30,10 @@ import java.util.stream.Collectors;
  * 后台用户管理
  * @author Xinbo
  */
-@Api("后台用户管理")
+@Api(tags = "后台用户管理", value = "UmsAdminController")
 @RestController
 @RequestMapping("/admin")
+@ResponseBody
 public class UmsAdminController {
     @Autowired
     private UmsAdminService adminService;

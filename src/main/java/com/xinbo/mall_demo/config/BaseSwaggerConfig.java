@@ -1,6 +1,7 @@
 package com.xinbo.mall_demo.config;
 
 import com.xinbo.mall_demo.common.domain.SwaggerProperties;
+import io.swagger.annotations.Api;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.context.annotation.Bean;
@@ -33,6 +34,7 @@ public abstract class BaseSwaggerConfig {
                 .apiInfo(apiInfo(swaggerProperties))
                 .select()
                 .apis(RequestHandlerSelectors.basePackage(swaggerProperties.getApiBasePackage()))
+//                .apis(RequestHandlerSelectors.withMethodAnnotation(Api.class))
                 .paths(PathSelectors.any())
                 .build();
         if (swaggerProperties.isEnableSecurity()) {
@@ -62,6 +64,7 @@ public abstract class BaseSwaggerConfig {
         //设置需要登录认证的路径
         List<SecurityContext> result = new ArrayList<>();
         result.add(getContextByPath("/*/.*"));
+//        result.add(getContextByPath("/brand/.*"));
         return result;
     }
 
@@ -80,38 +83,38 @@ public abstract class BaseSwaggerConfig {
         result.add(new SecurityReference("Authorization", authorizationScopes));
         return result;
     }
-
-    public BeanPostProcessor generateBeanPostProcessor(){
-        return new BeanPostProcessor() {
-
-            @Override
-            public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
-                if (bean instanceof WebMvcRequestHandlerProvider || bean instanceof WebFluxRequestHandlerProvider) {
-                    customizeSpringfoxHandlerMappings(getHandlerMappings(bean));
-                }
-                return bean;
-            }
-
-            private <T extends RequestMappingInfoHandlerMapping> void customizeSpringfoxHandlerMappings(List<T> mappings) {
-                List<T> copy = mappings.stream()
-                        .filter(mapping -> mapping.getPathMatcher() == null)
-                        .collect(Collectors.toList());
-                mappings.clear();
-                mappings.addAll(copy);
-            }
-
-            @SuppressWarnings("unchecked")
-            private List<RequestMappingInfoHandlerMapping> getHandlerMappings(Object bean) {
-                try {
-                    Field field = ReflectionUtils.findField(bean.getClass(), "handlerMappings");
-                    field.setAccessible(true);
-                    return (List<RequestMappingInfoHandlerMapping>) field.get(bean);
-                } catch (IllegalArgumentException | IllegalAccessException e) {
-                    throw new IllegalStateException(e);
-                }
-            }
-        };
-    }
+//
+//    public BeanPostProcessor generateBeanPostProcessor(){
+//        return new BeanPostProcessor() {
+//
+//            @Override
+//            public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
+//                if (bean instanceof WebMvcRequestHandlerProvider || bean instanceof WebFluxRequestHandlerProvider) {
+//                    customizeSpringfoxHandlerMappings(getHandlerMappings(bean));
+//                }
+//                return bean;
+//            }
+//
+//            private <T extends RequestMappingInfoHandlerMapping> void customizeSpringfoxHandlerMappings(List<T> mappings) {
+//                List<T> copy = mappings.stream()
+//                        .filter(mapping -> mapping.getPathMatcher() == null)
+//                        .collect(Collectors.toList());
+//                mappings.clear();
+//                mappings.addAll(copy);
+//            }
+//
+//            @SuppressWarnings("unchecked")
+//            private List<RequestMappingInfoHandlerMapping> getHandlerMappings(Object bean) {
+//                try {
+//                    Field field = ReflectionUtils.findField(bean.getClass(), "handlerMappings");
+//                    field.setAccessible(true);
+//                    return (List<RequestMappingInfoHandlerMapping>) field.get(bean);
+//                } catch (IllegalArgumentException | IllegalAccessException e) {
+//                    throw new IllegalStateException(e);
+//                }
+//            }
+//        };
+//    }
 
     /**
      * 自定义Swagger配置
