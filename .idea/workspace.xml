@@ -4,26 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32304d96-5b84-477b-9b9e-32a0c61a20ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="32304d96-5b84-477b-9b9e-32a0c61a20ec" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/xinbo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lionsoul_ip2region_2_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/city/ip2region.xdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mall_demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/config/BaseSwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/config/BaseSwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/config/MybatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/config/MybatisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/controller/PmsBrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/controller/PmsBrandController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/controller/UmsAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/controller/UmsAdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/controller/UmsMemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/controller/UmsMemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/model/bo/AdminUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/model/bo/AdminUserDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/service/impl/UmsAdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/service/impl/UmsAdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UmsAdminRoleRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UmsAdminRoleRelationMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UmsAdminRoleRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UmsAdminRoleRelationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/common/util/RequestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/common/util/RequestUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,35 +25,50 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="Mapper" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2BSeKeUMtE1lHYBIAvEoDWj5IBH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/xinbo/Desktop/Develop/Java/mall_demo/src/main/resources/city&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;d03b9c918676080e51ec12dd61997469&quot;
+  }
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/city" />
+    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.MallDemoApplication">
     <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -77,19 +84,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MallDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mall_demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xinbo.mall_demo.MallDemoApplication" />
@@ -99,11 +93,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Generator" />
+        <item itemvalue="应用程序.Generator" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
   </component>
@@ -114,7 +108,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656903852271</updated>
-      <workItem from="1656903862411" duration="16727000" />
+      <workItem from="1656903862411" duration="18276000" />
+      <workItem from="1657082675656" duration="493000" />
+      <workItem from="1657503952242" duration="50000" />
+      <workItem from="1657504011882" duration="168000" />
+      <workItem from="1657504190681" duration="338000" />
+      <workItem from="1657505135516" duration="46000" />
+      <workItem from="1657505189915" duration="622000" />
+      <workItem from="1657546880196" duration="192000" />
+      <workItem from="1657583552255" duration="5259000" />
+      <workItem from="1657676150074" duration="364000" />
     </task>
     <servers />
   </component>

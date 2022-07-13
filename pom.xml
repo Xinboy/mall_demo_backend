@@ -149,6 +149,17 @@
             <artifactId>jaxb-api</artifactId>
             <version>2.1</version>
         </dependency>
+        <!--    ip2region xdb java    -->
+        <dependency>
+            <groupId>org.lionsoul</groupId>
+            <artifactId>ip2region</artifactId>
+            <version>2.6.4</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
