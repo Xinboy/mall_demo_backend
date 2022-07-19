@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="dataSourceStorageLocal" created-in="IU-211.7142.45" />
+  <component name="dataSourceStorageLocal" created-in="IU-221.5921.22">
+    <data-source name="@localhost" uuid="18f792c6-6910-474c-b1fd-7c51a259798c">
+      <database-info product="Elasticsearch" version="7.10.2" jdbc-version="4.2" driver-name="Elasticsearch JDBC Driver" driver-version="7.10" dbms="UNKNOWN" exact-version="7.17" exact-driver-version="7.10">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <auth-provider>no-auth</auth-provider>
+      <schema-mapping />
+    </data-source>
+  </component>
 </project>

@@ -1,10 +1,12 @@
 package com.xinbo.mall_demo.common.api;
 
 import com.github.pagehelper.PageInfo;
+import com.xinbo.mall_demo.model.elasticsearch.EsProduct;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
+import org.springframework.data.domain.Page;
 
 import java.util.List;
 
@@ -16,7 +18,7 @@ import java.util.List;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-public class Page<T> {
+public class CommonPage<T> {
     /**
      * 当前页码
      */
@@ -41,8 +43,8 @@ public class Page<T> {
     /**
      * 将PageHelper分页后的list转为分页信息
      */
-    public static <T> Page<T> restPage(List<T> list) {
-        Page<T> result = new Page<>();
+    public static <T> CommonPage<T> restPage(List<T> list) {
+        CommonPage<T> result = new CommonPage<>();
         PageInfo<T> page = new PageInfo<>(list);
         result.setPageNum(page.getPageNum());
         result.setPageSize(page.getPageSize());
@@ -55,13 +57,13 @@ public class Page<T> {
     /**
      * 将SpringData分页后的list转为分页信息
      */
-    public static <T> Page<T> restPage(PageInfo<T> page) {
-        Page<T> result = new Page<>();
-        result.setPageNum(page.getPageNum());
-        result.setPageSize(page.getPageSize());
-        result.setTotal(page.getTotal());
-        result.setTotalPage(page.getPages());
-        result.setList(page.getList());
+    public static <T> CommonPage<T> restPage(Page<T> pageInfo) {
+        CommonPage<T> result = new CommonPage<>();
+        result.setPageNum(pageInfo.getNumber());
+        result.setPageSize(pageInfo.getSize());
+        result.setTotal(pageInfo.getTotalElements());
+        result.setTotalPage(pageInfo.getTotalPages());
+        result.setList(pageInfo.getContent());
         return result;
     }
 }

@@ -2,7 +2,7 @@ package com.xinbo.mall_demo.controller;
 
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.util.StrUtil;
-import com.xinbo.mall_demo.common.api.Page;
+import com.xinbo.mall_demo.common.api.CommonPage;
 import com.xinbo.mall_demo.common.api.Result;
 import com.xinbo.mall_demo.mbg.model.UmsAdmin;
 import com.xinbo.mall_demo.mbg.model.UmsRole;
@@ -109,11 +109,11 @@ public class UmsAdminController {
 
     @ApiOperation(value = "根据用户名或姓名分页获取用户列表")
     @GetMapping(value = "/list")
-    public Result<Page<UmsAdmin>> list(@RequestParam(value = "keyword", required = false) String keyword,
-                                       @RequestParam(value = "pageSize", defaultValue = "5") Integer pageSize,
-                                       @RequestParam(value = "pageNum", defaultValue = "1") Integer pageNum) {
+    public Result<CommonPage<UmsAdmin>> list(@RequestParam(value = "keyword", required = false) String keyword,
+                                             @RequestParam(value = "pageSize", defaultValue = "5") Integer pageSize,
+                                             @RequestParam(value = "pageNum", defaultValue = "1") Integer pageNum) {
         List<UmsAdmin> admins = adminService.list(keyword, pageSize, pageNum);
-        return Result.success(Page.restPage(admins));
+        return Result.success(CommonPage.restPage(admins));
     }
 
     @ApiOperation(value = "获取指定用户信息")

@@ -1,6 +1,6 @@
 package com.xinbo.mall_demo.controller;
 
-import com.xinbo.mall_demo.common.api.Page;
+import com.xinbo.mall_demo.common.api.CommonPage;
 import com.xinbo.mall_demo.common.api.Result;
 import com.xinbo.mall_demo.mbg.model.PmsBrand;
 import com.xinbo.mall_demo.service.PmsBrandService;
@@ -47,10 +47,10 @@ public class PmsBrandController {
     @ApiOperation("分页获取品牌列表")
     @GetMapping()
     @PreAuthorize(value = "hasAuthority('pms:brand:read')")
-    public Result<Page<PmsBrand>> getBrandLists(@RequestParam(value = "pageNum", defaultValue = "1") Integer pageNum,
-                                                @RequestParam(value = "pageSize", defaultValue = "10") Integer pageSize) {
+    public Result<CommonPage<PmsBrand>> getBrandLists(@RequestParam(value = "pageNum", defaultValue = "1") Integer pageNum,
+                                                      @RequestParam(value = "pageSize", defaultValue = "10") Integer pageSize) {
         List<PmsBrand> list = pmsBrandService.list(pageNum, pageSize);
-        return Result.success(Page.restPage(list));
+        return Result.success(CommonPage.restPage(list));
     }
 
     @ApiOperation("新建品牌")
