@@ -24,6 +24,10 @@ spring:
         reactive: localhost:9200
       repositories:
         enabled: true
+    mongodb:
+      host: localhost
+      port: 27017
+      database: mall-port
 
 
 mybatis:

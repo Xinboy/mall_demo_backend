@@ -5,23 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32304d96-5b84-477b-9b9e-32a0c61a20ec" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/controller/EsProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/model/dao/EsProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/model/elasticsearch/EsProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/model/elasticsearch/EsProductAttributeValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/model/elasticsearch/repository/EsProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/service/EsProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/service/impl/EsProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/EsProductMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_4_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_4_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_sync_4_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_3_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/controller/MemberReadHistoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/model/mongodb/document/MemberReadHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/model/mongodb/repository/MemberReadHistoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/service/MemberReadHistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/service/impl/MemberReadHistoryServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mall_demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/common/api/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/common/api/CommonPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/controller/PmsBrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/controller/PmsBrandController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/controller/UmsAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/controller/UmsAdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/model/bo/ConfirmOrderResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/model/bo/ConfirmOrderResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/service/EsProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/service/EsProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
     </list>
@@ -34,8 +32,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Mapper" />
-        <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -73,7 +71,7 @@
     "project.structure.last.edited": "项目",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "editing.templates",
     "spring.configuration.checksum": "d03b9c918676080e51ec12dd61997469"
   },
   "keyToStringList": {
@@ -114,6 +112,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Generator" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="SshConsoleOptionsProvider">
@@ -142,7 +145,9 @@
       <workItem from="1657868533739" duration="3365000" />
       <workItem from="1657875600829" duration="2180000" />
       <workItem from="1657981919167" duration="10189000" />
-      <workItem from="1658126430404" duration="9547000" />
+      <workItem from="1658126430404" duration="11361000" />
+      <workItem from="1658277003570" duration="127000" />
+      <workItem from="1658277140528" duration="11302000" />
     </task>
     <servers />
   </component>
@@ -161,19 +166,14 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/2.0.7/mybatis-spring-2.0.7.jar!/org/mybatis/spring/SqlSessionTemplate.class</url>
-          <line>192</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="java.lang.IllegalArgumentException" memberName="stackTrace" />
       </pinned-members>
     </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

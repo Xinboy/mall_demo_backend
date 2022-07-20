@@ -6,6 +6,12 @@ import org.springframework.data.domain.Page;
 
 import java.util.List;
 
+
+
+/**
+ * elasticsearch的商品搜索接口
+ * @author xinbo
+ **/
 public interface EsProductService {
     /**
      * 从数据库中导入所有商品到ES
