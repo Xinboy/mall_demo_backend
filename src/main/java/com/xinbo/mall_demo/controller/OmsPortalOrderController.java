@@ -14,7 +14,7 @@ import java.util.Map;
  * 订单管理Controller
  * @author xinbo
  */
-@Api(value = "订单管理", tags = "OmsPortalOrderController")
+@Api(tags = "订单管理", value = "OmsPortalOrderController")
 @RestController
 @RequestMapping("/order")
 @ResponseBody
@@ -22,8 +22,6 @@ public class OmsPortalOrderController {
 
     @Autowired
     private OmsPortalOrderService portalOrderService;
-
-
     @ApiOperation("根据购物车信息生成订单")
     @RequestMapping(value = "/generateOrder", method = RequestMethod.POST)
     @ResponseBody
