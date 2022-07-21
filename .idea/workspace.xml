@@ -5,25 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32304d96-5b84-477b-9b9e-32a0c61a20ec" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_2_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_2_13_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_2_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/component/CancelOrderReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/component/CancelOrderSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/config/RabbitMqConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/controller/OmsPortalOrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/model/dto/OrderParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/model/dto/QueueEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/service/OmsPortalOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/service/impl/OmsPortalOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_oss_aliyun_sdk_oss_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jdom_jdom_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/config/OssConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/controller/OssController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/model/bo/OssCallbackResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/model/bo/OssPolicyResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/model/dto/OssCallbackParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/service/OssService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/service/impl/OssServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mall_demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/component/OrderTimeOutCancelTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/component/OrderTimeOutCancelTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/controller/OmsPortalOrderService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
     </list>
@@ -152,7 +151,7 @@
       <workItem from="1657981919167" duration="10189000" />
       <workItem from="1658126430404" duration="11361000" />
       <workItem from="1658277003570" duration="127000" />
-      <workItem from="1658277140528" duration="20464000" />
+      <workItem from="1658277140528" duration="25583000" />
     </task>
     <servers />
   </component>
