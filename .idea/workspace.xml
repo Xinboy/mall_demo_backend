@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32304d96-5b84-477b-9b9e-32a0c61a20ec" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/component/WebLogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/model/dto/WebLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/config/GlobalCorsConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/controller/OmsPortalOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/controller/OmsPortalOrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/controller/OssController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/controller/OssController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xinbo/mall_demo/config/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +135,7 @@
       <workItem from="1658126430404" duration="11361000" />
       <workItem from="1658277003570" duration="127000" />
       <workItem from="1658277140528" duration="27392000" />
-      <workItem from="1658389246636" duration="759000" />
+      <workItem from="1658389246636" duration="2003000" />
     </task>
     <servers />
   </component>
