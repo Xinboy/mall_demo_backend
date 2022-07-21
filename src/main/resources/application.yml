@@ -28,7 +28,12 @@ spring:
       host: localhost
       port: 27017
       database: mall-port
-
+  rabbitmq:
+    host: localhost
+    port: 15672
+    virtual-host: /mall
+    username: mall
+    password: mall
 
 mybatis:
   mapper-locations:
