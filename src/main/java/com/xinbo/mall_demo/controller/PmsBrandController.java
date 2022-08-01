@@ -31,22 +31,19 @@ public class PmsBrandController {
     private static final Logger LOGGER = LoggerFactory.getLogger(PmsBrandController.class);
 
     @ApiOperation("获取全部品牌列表")
-    @GetMapping(value = "/all")
-    @PreAuthorize(value = "hasAuthority('pms:brand:read')")
+    @GetMapping(value = "/list")
     public Result<List<PmsBrand>> getBrandList() {
         return Result.success(pmsBrandService.listAll());
     }
 
     @ApiOperation("获取指定品牌")
     @GetMapping(value = "/{id}")
-    @PreAuthorize(value = "hasAuthority('pms:brand:read')")
     public Result<PmsBrand> getBrand(@PathVariable Long id) {
         return Result.success(pmsBrandService.get(id));
     }
 
     @ApiOperation("分页获取品牌列表")
-    @GetMapping()
-    @PreAuthorize(value = "hasAuthority('pms:brand:read')")
+    @GetMapping(value = "")
     public Result<CommonPage<PmsBrand>> getBrandLists(@RequestParam(value = "pageNum", defaultValue = "1") Integer pageNum,
                                                       @RequestParam(value = "pageSize", defaultValue = "10") Integer pageSize) {
         List<PmsBrand> list = pmsBrandService.list(pageNum, pageSize);
@@ -54,8 +51,7 @@ public class PmsBrandController {
     }
 
     @ApiOperation("新建品牌")
-    @PostMapping()
-    @PreAuthorize(value = "hasAuthority('pms:brand:create')")
+    @PostMapping(value = "")
     public Result create(@RequestBody PmsBrand pmsBrand) {
         Result result;
         int count = pmsBrandService.create(pmsBrand);
@@ -71,7 +67,6 @@ public class PmsBrandController {
 
     @ApiOperation("更新品牌")
     @PutMapping(value = "/{id}")
-    @PreAuthorize(value = "hasAuthority('pms:brand:update')")
     public Result update(@PathVariable Long id, @RequestBody PmsBrand pmsBrand, BindingResult result) {
         Result res;
         int count = pmsBrandService.update(id, pmsBrand);
@@ -87,7 +82,6 @@ public class PmsBrandController {
 
     @ApiOperation("删除品牌")
     @DeleteMapping(value = "/{id}")
-    @PreAuthorize(value = "hasAuthority('pms:brand:delete')")
     public Result delete(@PathVariable Long id) {
         Result res;
         int count = pmsBrandService.delete(id);

@@ -23,7 +23,7 @@ public class OmsPortalOrderController {
     @Autowired
     private OmsPortalOrderService portalOrderService;
     @ApiOperation("根据购物车信息生成订单")
-    @RequestMapping(value = "/generateOrder", method = RequestMethod.POST)
+    @PostMapping(value = "")
     @ResponseBody
     public Result generateOrder(@RequestBody OrderParam orderParam) {
         Map<String, Object> result = (Map<String, Object>) portalOrderService.generateOrder(orderParam);

@@ -22,14 +22,14 @@ public class UmsMemberController {
     private UmsMemberService memberService;
 
     @ApiOperation("获取验证码")
-    @GetMapping(value = "/getAuthCode")
+    @GetMapping(value = "/code")
     @ResponseBody
     public Result getAuthCode(@RequestParam String phone) {
         return memberService.generateAuthCode(phone);
     }
 
     @ApiOperation("判断验证码是否正确")
-    @PostMapping(value = "/verifyAuthCode")
+    @PostMapping(value = "/code")
     @ResponseBody
     public Result verifyAuthCode(@RequestParam String phone,
                                  @RequestParam String authCode) {

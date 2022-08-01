@@ -26,28 +26,28 @@ public class EsProductController {
     private EsProductService productService;
 
     @ApiOperation(value = "导入所有数据库中商品到ES")
-    @PostMapping(value = "/importAll")
+    @PostMapping(value = "/product")
     public Result<Integer> importAllList() {
         int count = productService.importAll();
         return Result.success(count);
     }
 
     @ApiOperation(value = "根据id删除商品")
-    @DeleteMapping(value = "delete/{id}")
+    @DeleteMapping(value = "/product/{id}")
     public Result<Object> delete(@PathVariable Long id) {
         productService.delete(id);
         return Result.success(null);
     }
 
     @ApiOperation(value = "根据ids 批量删除商品")
-    @PostMapping(value = "/delete/batch")
+    @DeleteMapping(value = "/product")
     public Result<Object> delete(@RequestParam("ids") List<Long> ids) {
         productService.delete(ids);
         return Result.success(null);
     }
 
     @ApiOperation(value = "根据id 创建商品")
-    @PostMapping(value = "/create/{id}")
+    @PostMapping(value = "/product/{id}")
     public Result<EsProduct> create(@PathVariable Long id) {
         EsProduct esProduct = productService.create(id);
         if (esProduct != null) {
@@ -58,7 +58,7 @@ public class EsProductController {
     }
 
     @ApiOperation(value = "简单搜索")
-    @GetMapping(value = "/search/simple")
+    @GetMapping(value = "/product")
     public Result<CommonPage<EsProduct>> search(@RequestParam(required = false) String keyword,
                                                 @RequestParam(required = false, defaultValue = "0") Integer pageNum,
                                                 @RequestParam(required = false, defaultValue = "5") Integer pageSize)  {

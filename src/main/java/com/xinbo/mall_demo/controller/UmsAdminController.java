@@ -21,9 +21,11 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import java.security.Principal;
+import java.sql.ResultSet;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.*;
 import java.util.stream.Collectors;
 
 /**
@@ -44,18 +46,8 @@ public class UmsAdminController {
     @Value("${jwt.tokenHead}")
     private String tokenHead;
 
-    @ApiOperation(value = "用户注册")
-    @PostMapping(value = "/register")
-    public Result<UmsAdmin> register(@RequestBody UmsAdminParam umsAdminParam, BindingResult result) {
-        UmsAdmin umsAdmin = adminService.register(umsAdminParam);
-        if (umsAdmin == null) {
-            return Result.failed("注册失败");
-        }
-        return Result.success(umsAdmin);
-    }
-
     @ApiOperation(value = "用户登录")
-    @PostMapping(value ="/login")
+    @PostMapping(value ="/session")
     public Result login(@RequestBody UmsAdminLoginParam loginParam, BindingResult result) {
         String token = adminService.login(loginParam.getUsername(), loginParam.getPassword());
         if (token == null) {
@@ -68,7 +60,7 @@ public class UmsAdminController {
     }
 
     @ApiOperation(value = "刷新 token")
-    @GetMapping(value = "/refreshToken")
+    @PutMapping(value = "/session")
     public Result refreshToken(HttpServletRequest request) {
         String token = request.getHeader(tokenHeader);
         String refreshToken = adminService.refreshToken(token);
@@ -81,8 +73,35 @@ public class UmsAdminController {
         return Result.success(tokenMap);
     }
 
+    @ApiOperation(value = "登出")
+    @DeleteMapping(value = "/session")
+    public Result logout() {
+        return null;
+    }
+
+    @ApiOperation(value = "根据用户名或姓名分页获取用户列表")
+    @GetMapping(value = "/user/info")
+    public Result<CommonPage<UmsAdmin>> list(@RequestParam(value = "keyword", required = false) String keyword,
+                                             @RequestParam(value = "pageSize", defaultValue = "5") Integer pageSize,
+                                             @RequestParam(value = "pageNum", defaultValue = "1") Integer pageNum) {
+        List<UmsAdmin> admins = adminService.list(keyword, pageSize, pageNum);
+        return Result.success(CommonPage.restPage(admins));
+    }
+
+    @ApiOperation(value = "用户注册")
+    @PostMapping(value = "/user")
+    public Result<UmsAdmin> register(@RequestBody UmsAdminParam umsAdminParam, BindingResult result) {
+        UmsAdmin umsAdmin = adminService.register(umsAdminParam);
+        if (umsAdmin == null) {
+            return Result.failed("注册失败");
+        }
+        return Result.success(umsAdmin);
+    }
+
+
+
     @ApiOperation(value = "获取当前登录用户信息")
-    @GetMapping(value = "/info")
+    @GetMapping(value = "/user")
     public Result getAdminInfo(Principal principal) {
         if (principal == null) {
             return Result.unauthorized(null);
@@ -101,30 +120,15 @@ public class UmsAdminController {
         return Result.success(data);
     }
 
-    @ApiOperation(value = "登出")
-    @PostMapping(value = "/logout")
-    public Result logout() {
-        return null;
-    }
-
-    @ApiOperation(value = "根据用户名或姓名分页获取用户列表")
-    @GetMapping(value = "/list")
-    public Result<CommonPage<UmsAdmin>> list(@RequestParam(value = "keyword", required = false) String keyword,
-                                             @RequestParam(value = "pageSize", defaultValue = "5") Integer pageSize,
-                                             @RequestParam(value = "pageNum", defaultValue = "1") Integer pageNum) {
-        List<UmsAdmin> admins = adminService.list(keyword, pageSize, pageNum);
-        return Result.success(CommonPage.restPage(admins));
-    }
-
     @ApiOperation(value = "获取指定用户信息")
-    @GetMapping(value = "/{id}")
+    @GetMapping(value = "/user/{id}")
     public Result<UmsAdmin> getAdmin(@PathVariable Long id) {
         UmsAdmin admin = adminService.getAdmin(id);
         return Result.success(admin);
     }
 
     @ApiOperation(value = "更新指定用户信息")
-    @PutMapping(value = "/{id}")
+    @PutMapping(value = "/user/{id}")
     public Result updateAdmin(@PathVariable Long id,
                               @RequestBody UmsAdmin admin) {
         int count = adminService.update(id, admin);
@@ -135,7 +139,7 @@ public class UmsAdminController {
     }
 
     @ApiOperation(value = "删除指定用户信息")
-    @DeleteMapping(value = "/{id}")
+    @DeleteMapping(value = "/user/{id}")
     public Result deleteAdmin(@PathVariable Long id) {
         int count = adminService.delete(id);
         if (count > 0) {
@@ -145,7 +149,7 @@ public class UmsAdminController {
     }
 
     @ApiOperation(value = "修改指定用户密码")
-    @PostMapping("/updatePwd")
+    @PutMapping("/user/{id}/pwd")
     public Result updatePwd(@Validated  @RequestBody UpdateAdminPasswordParam updatePasswordParam) {
         int status = adminService.updatePassword(updatePasswordParam);
         if (status > 0) {
@@ -165,7 +169,7 @@ public class UmsAdminController {
     }
 
     @ApiOperation("修改账号状态")
-    @PostMapping(value = "/updateStatus/{id}")
+    @PostMapping(value = "/user/{id}/status")
     public Result updateStatus(@PathVariable Long id,
                                @RequestParam("status") Integer status) {
         UmsAdmin admin = new UmsAdmin();
@@ -179,7 +183,7 @@ public class UmsAdminController {
 
 
     @ApiOperation("给用户分配角色")
-    @PostMapping(value = "/role/update")
+    @PostMapping(value = "/role/")
     public Result updateRole(@RequestParam("adminId") Long adminId,
                                    @RequestParam("roleIds") List<Long> roleIds) {
         int count = adminService.updateRole(adminId, roleIds);
@@ -196,6 +200,7 @@ public class UmsAdminController {
         return Result.success(roleList);
     }
 }
+
 
 
 

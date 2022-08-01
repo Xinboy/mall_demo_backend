@@ -1,12 +1,13 @@
 package com.xinbo.mall_demo.controller;
 
-import com.sun.org.slf4j.internal.Logger;
-import com.sun.org.slf4j.internal.LoggerFactory;
+
 import com.xinbo.mall_demo.common.api.Result;
 import com.xinbo.mall_demo.model.mongodb.document.MemberReadHistory;
 import com.xinbo.mall_demo.service.MemberReadHistoryService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -27,7 +28,7 @@ public class MemberReadHistoryController {
     private MemberReadHistoryService service;
 
     @ApiOperation(value = "创建浏览记录")
-    @PostMapping(value = "/create")
+    @PostMapping(value = "/record")
     public Result create(@RequestBody MemberReadHistory memberReadHistory) {
         int count = service.create(memberReadHistory);
         if (count > 0) {
@@ -37,7 +38,7 @@ public class MemberReadHistoryController {
     }
 
     @ApiOperation(value = "删除浏览记录")
-    @DeleteMapping(value = "/delete")
+    @DeleteMapping(value = "/record")
     public Result delete(@RequestParam("ids") List<String> ids) {
         int count = service.delete(ids);
         if (count > 0) {
@@ -47,7 +48,7 @@ public class MemberReadHistoryController {
     }
 
     @ApiOperation(value = "删除指定用户的浏览记录")
-    @DeleteMapping(value = "/delete/{memberId}")
+    @DeleteMapping(value = "/record/{memberId}")
     public Result delete(@PathVariable Long memberId) {
         int count =  service.clear(memberId);
         if (count > 0) {
@@ -57,7 +58,7 @@ public class MemberReadHistoryController {
     }
 
     @ApiOperation(value = "删除全部浏览记录")
-    @DeleteMapping(value = "/delete/all")
+    @DeleteMapping(value = "/record/all")
     public Result delete() {
         int count = service.clear();
         if (count > 0) {
@@ -67,9 +68,9 @@ public class MemberReadHistoryController {
     }
 
     @ApiOperation(value = "获取浏览记录")
-    @GetMapping("/{id}")
-    public Result<List<MemberReadHistory>> list(@PathVariable Long id) {
-        List<MemberReadHistory> list = service.list(id);
+    @GetMapping("/{memberId}/record")
+    public Result<List<MemberReadHistory>> list(@PathVariable Long memberId) {
+        List<MemberReadHistory> list = service.list(memberId);
         return Result.success(list);
     }
 

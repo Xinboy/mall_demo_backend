@@ -1,0 +1,79 @@
+Manifest-Version: 1.0
+Main-Class: com.xinbo.mall_demo.MallDemoApplication
+Class-Path: spring-boot-starter-json-2.3.7.RELEASE.jar javax.servlet-api
+ -4.0.1.jar netty-resolver-4.1.55.Final.jar spring-plugin-core-2.0.0.REL
+ EASE.jar mapper-extras-client-7.6.2.jar jackson-annotations-2.11.3.jar 
+ spring-jdbc-5.2.12.RELEASE.jar spring-tx-5.2.12.RELEASE.jar spring-aop-
+ 5.2.12.RELEASE.jar json-lib-2.4-jdk15.jar pagehelper-spring-boot-autoco
+ nfigure-1.4.2.jar logback-classic-1.2.3.jar jackson-dataformat-smile-2.
+ 11.3.jar spring-jcl-5.2.12.RELEASE.jar spring-context-support-5.2.12.RE
+ LEASE.jar httpcore-4.4.14.jar spring-boot-starter-actuator-2.3.7.RELEAS
+ E.jar spring-boot-starter-2.3.7.RELEASE.jar spring-web-5.2.12.RELEASE.j
+ ar micrometer-core-1.5.9.jar spring-data-mongodb-3.0.6.RELEASE.jar spri
+ ng-expression-5.2.12.RELEASE.jar springfox-swagger-common-3.0.0.jar mon
+ godb-driver-core-4.0.5.jar commons-lang-2.5.jar spring-boot-2.3.7.RELEA
+ SE.jar lucene-join-8.4.0.jar spring-boot-starter-web-2.3.7.RELEASE.jar 
+ reactor-core-3.3.12.RELEASE.jar transport-netty4-client-7.6.2.jar pageh
+ elper-5.3.0.jar bson-4.0.5.jar elasticsearch-rest-high-level-client-7.6
+ .2.jar mapstruct-1.3.1.Final.jar jackson-datatype-jsr310-2.11.3.jar rea
+ ctive-streams-1.0.3.jar aliyun-sdk-oss-2.5.0.jar stax-api-1.0-2.jar ela
+ sticsearch-geo-7.6.2.jar spring-plugin-metadata-2.0.0.RELEASE.jar swagg
+ er-annotations-1.6.0.jar jdom-1.1.jar jopt-simple-5.0.2.jar springfox-s
+ pring-web-3.0.0.jar spring-data-commons-2.3.6.RELEASE.jar parent-join-c
+ lient-7.6.2.jar lucene-highlighter-8.4.0.jar netty-common-4.1.55.Final.
+ jar httpasyncclient-4.1.4.jar classmate-1.5.1.jar slf4j-api-1.7.30.jar 
+ spring-data-elasticsearch-4.0.6.RELEASE.jar lucene-spatial3d-8.4.0.jar 
+ mybatis-generator-core-1.4.1.jar commons-codec-1.14.jar netty-buffer-4.
+ 1.55.Final.jar ip2region-2.6.4.jar netty-handler-4.1.55.Final.jar pageh
+ elper-spring-boot-starter-1.4.2.jar lucene-spatial-extras-8.4.0.jar cla
+ ssgraph-4.8.83.jar spring-security-web-5.3.6.RELEASE.jar spring-boot-ac
+ tuator-autoconfigure-2.3.7.RELEASE.jar jackson-module-parameter-names-2
+ .11.3.jar commons-logging-1.1.1.jar mongodb-driver-sync-4.0.5.jar jboss
+ -logging-3.4.1.Final.jar lucene-backward-codecs-8.4.0.jar jaxb-api-2.1.
+ jar httpcore-nio-4.4.14.jar spring-core-5.2.12.RELEASE.jar spring-boot-
+ starter-jdbc-2.3.7.RELEASE.jar spring-boot-autoconfigure-2.3.7.RELEASE.
+ jar mysql-connector-java-8.0.22.jar lettuce-core-5.3.5.RELEASE.jar spri
+ ng-boot-starter-validation-2.3.7.RELEASE.jar amqp-client-5.9.0.jar jack
+ son-core-2.11.3.jar t-digest-3.2.jar jackson-datatype-jdk8-2.11.3.jar n
+ etty-codec-http-4.1.55.Final.jar netty-transport-4.1.55.Final.jar aspec
+ tjweaver-1.9.6.jar spring-boot-starter-security-2.3.7.RELEASE.jar swagg
+ er-annotations-2.1.2.jar spring-boot-starter-data-elasticsearch-2.3.7.R
+ ELEASE.jar springfox-swagger-ui-3.0.0.jar springfox-spring-webmvc-3.0.0
+ .jar elasticsearch-cli-7.6.2.jar lucene-core-8.4.0.jar hppc-0.8.1.jar j
+ jwt-0.9.1.jar spring-messaging-5.2.12.RELEASE.jar log4j-api-2.13.3.jar 
+ jul-to-slf4j-1.7.30.jar springfox-data-rest-3.0.0.jar commons-collectio
+ ns-3.2.1.jar elasticsearch-core-7.6.2.jar spring-boot-starter-data-mong
+ odb-2.3.7.RELEASE.jar lucene-memory-8.4.0.jar commons-beanutils-1.8.0.j
+ ar jackson-databind-2.11.3.jar ezmorph-1.0.6.jar jackson-dataformat-cbo
+ r-2.11.3.jar byte-buddy-1.10.18.jar elasticsearch-secure-sm-7.6.2.jar c
+ ompiler-0.9.6.jar log4j-to-slf4j-2.13.3.jar lucene-analyzers-common-8.4
+ .0.jar lucene-suggest-8.4.0.jar spring-amqp-2.2.13.RELEASE.jar springfo
+ x-oas-3.0.0.jar springfox-swagger2-3.0.0.jar assertj-core-3.16.1.jar dr
+ uid-1.2.9.jar spring-retry-1.2.5.RELEASE.jar elasticsearch-7.6.2.jar sp
+ ring-context-5.2.12.RELEASE.jar hutool-all-5.8.0.jar jakarta.annotation
+ -api-1.3.5.jar LatencyUtils-2.0.3.jar HikariCP-3.4.5.jar springfox-sche
+ ma-3.0.0.jar httpclient-4.5.13.jar spring-boot-actuator-2.3.7.RELEASE.j
+ ar jsqlparser-4.2.jar lucene-queryparser-8.4.0.jar tomcat-embed-core-9.
+ 0.41.jar swagger-models-1.6.0.jar tomcat-embed-websocket-9.0.41.jar myb
+ atis-spring-boot-starter-2.2.2.jar rank-eval-client-7.6.2.jar lombok-1.
+ 18.16.jar HdrHistogram-2.1.12.jar lucene-queries-8.4.0.jar jackson-data
+ format-yaml-2.11.3.jar spring-boot-starter-logging-2.3.7.RELEASE.jar sp
+ ring-boot-starter-tomcat-2.3.7.RELEASE.jar springfox-spring-webflux-3.0
+ .0.jar spring-security-core-5.3.6.RELEASE.jar jna-4.5.1.jar spring-data
+ -redis-2.3.6.RELEASE.jar mybatis-3.5.9.jar lucene-sandbox-8.4.0.jar ela
+ sticsearch-rest-client-7.6.2.jar hibernate-validator-6.1.6.Final.jar ja
+ karta.validation-api-2.0.2.jar spring-webmvc-5.2.12.RELEASE.jar spring-
+ boot-starter-data-redis-2.3.7.RELEASE.jar lucene-spatial-8.4.0.jar aggs
+ -matrix-stats-client-7.6.2.jar lang-mustache-client-7.6.2.jar mybatis-s
+ pring-boot-autoconfigure-2.2.2.jar spring-rabbit-2.2.13.RELEASE.jar net
+ ty-codec-4.1.55.Final.jar jakarta.el-3.0.3.jar logback-core-1.2.3.jar s
+ pring-boot-starter-aop-2.3.7.RELEASE.jar spring-data-keyvalue-2.3.6.REL
+ EASE.jar springfox-bean-validators-3.0.0.jar spring-beans-5.2.12.RELEAS
+ E.jar elasticsearch-x-content-7.6.2.jar druid-spring-boot-starter-1.2.9
+ .jar lucene-misc-8.4.0.jar spring-oxm-5.2.12.RELEASE.jar joda-time-2.10
+ .4.jar springfox-boot-starter-3.0.0.jar spring-boot-starter-amqp-2.3.7.
+ RELEASE.jar springfox-spi-3.0.0.jar spring-security-config-5.3.6.RELEAS
+ E.jar springfox-core-3.0.0.jar lucene-grouping-8.4.0.jar snakeyaml-1.26
+ .jar mybatis-spring-2.0.7.jar activation-1.1.jar swagger-models-2.1.2.j
+ ar
+
