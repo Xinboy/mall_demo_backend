@@ -1,0 +1,8 @@
+
+Q	java:S125"<This block of commented-out lines of code should be removed.(Ô‚‡ 
+l
+java:S1128"WRemove this unused import 'org.springframework.beans.factory.config.BeanPostProcessor'.(âŠÍr
+^
+java:S1128"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰Ş
+n
+java:S1128"XRemove this unused import 'springfox.documentation.swagger2.annotations.EnableSwagger2'.(ùÔ¨
